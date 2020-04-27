@@ -26,7 +26,6 @@ public class ConcurrencyTest {
         long time = System.currentTimeMillis()-start;
         thread.join();
         System.out.println("concurrency:"+time+"ms,b = "+b);
-        System.out.println("yanghsenghua");
     }
 
     private static void serial(){
