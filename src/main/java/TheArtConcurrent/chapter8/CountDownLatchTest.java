@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class CountDownLatchTest {
-    public static void main(String[] args) throws InterruptedException {
+        public static void main(String[] args) throws InterruptedException {
         final int totalThread = 20;
         CountDownLatch cdl = new CountDownLatch(totalThread);
         ExecutorService executorService = Executors.newCachedThreadPool();
